@@ -184,6 +184,32 @@ span.psw {
           </tr>
         </table>
         
+        <body>
+          <h1>Geolocation so I can find your coordinates</h1>
+          <p>Click the button to get your coordinates.</p>
+          
+          <button onclick="getLocation()">Try It</button>
+          
+          <p id="demo"></p>
+          
+          <script>
+          const x = document.getElementById("demo");
+          
+          function getLocation() {
+            if (navigator.geolocation) {
+              navigator.geolocation.watchPosition(showPosition);
+            } else { 
+              x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+          }
+              
+          function showPosition(position) {
+              x.innerHTML="Latitude: " + position.coords.latitude + 
+              "<br>Longitude: " + position.coords.longitude;
+          }
+          </script>
+          
+          </body>
         </body>
     <p>Call us now: +15667761332</p>
 </div>
