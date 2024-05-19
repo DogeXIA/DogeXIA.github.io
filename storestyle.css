@@ -1,0 +1,91 @@
+body {
+    background-image: url(https://www.shutterstock.com/search/financial-insurance-logo);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: arial;
+}
+
+h1,
+h2,
+p {
+    text-align: left-align;
+}
+
+.menu {
+    width: 80%;
+    background-color: rgb(179, 178, 177);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    height: 2px;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+h1,
+h2 {
+    font-family: Impact, serif;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.addon,
+.Add-Ons {
+    text-align: left;
+    width: 50%;
+}
+
+.health,
+.life,
+.home,
+.travel,
+.disability,
+.Insurance {
+    text-align: left;
+    width: 50%;
+}
+
+.price {
+    text-align: right;
+    width: 35%;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+.address {
+    margin-bottom: 5px;
+}
